@@ -1,2 +1,2 @@
 <?php
-echo "First lab done";
+echo "It's lab 1!";

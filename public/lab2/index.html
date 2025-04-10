@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2</title>
+</head>
+<body>
+
+    <h2>Upload file</h2>
+    <form action="process.php" method="POST" enctype="multipart/form-data">
+        <label for="fileUpload">Choose a file:</label>
+        <input type="file" name="fileUpload" id="fileUpload" required><br><br>
+        <input type="submit" value="Upload">
+    </form>
+
+    <h2>Enter your text</h2>
+    <form action="text.php" method="POST">
+        <label for="textInput">Enter text:</label><br>
+        <textarea name="textInput" id="textInput" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Submit Text">
+    </form>
+
+    <h2>File List</h2>
+    <a href="list.php">Uploaded files</a>
+
+</body>
+</html>
